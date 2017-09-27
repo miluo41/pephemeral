@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Pephemeral</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/cover.css" rel="stylesheet">
+    <style type="text/css">
+      .table-responsive{
+        width: 80%;
+        margin-bottom: 20%;
+        margin-top: 20%;
+      }
+
+    .title{
+      font-family: 'cambria';
+      color:#d5d8dc;
+      font-size: 32px;
+      text-align: center;
+    }
+    thead th{
+      text-align: center;
+      font-family: 'Helvetica';
+      font-size:23px;
+      color:#d5d8dc;
+    }
+    tbody td{
+      font-size:20px;
+    }
+    tbody th{
+       visibility: hidden;
+    }
+    table{
+      border: 0px;
+      border-bottom: 1px solid #ddd;
+    }
+    .cover-heading1{
+        font-size:50px;
+        font-family: 'cambria';
+        display: inline;
+        color: #c0392b;
+      }
+    .cover-heading2{
+        font-size:50px;
+        font-family: 'cambria';
+        display: inline;
+        color:#d5d8dc;
+      }
+    .lead{
+        font-family: 'cambria';
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="http://www.miluo-sci.com">Author</a></li>  
+                  <li><a href="https://docs.google.com/presentation/d/1uMcV06lWBx6JqaU2SPrqO_4_x7GGfi4H3QFcj_yjF1c/edit#slide=id.g2537e27629_0_15">About</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+<!--       <div class="inner cover">
+            <h1 class="cover-heading1">Pep</h1><h1 class="cover-heading2">hemeral</h1>
+            <h1 class="lead">a machine learning based peptide half life predicator</h1>
+      </div> -->
+      <div class="table-responsive">
+        <h1 class='title'>Half Life Prediction</h1>
+        <br>
+        <br>
+        {% block body %}
+        {% endblock %}
+      </div>
+      
+      <div class="mastfoot">
+            <div class="inner">
+              <p>powered with <a href="http://getbootstrap.com">Bootstrap</a>.</p>
+            </div>
+      </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
