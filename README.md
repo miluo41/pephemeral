@@ -3,7 +3,7 @@ Pephemeral is a project I finished while working as a Health Data Science Fellow
 The purpose of the project is to predict peptide drug stability from user input sequence information. 
 The structure of the code is in accordance with the recommended layout for Pyton Flask web app development.  
 
-The web app itself can be found at $pephemeral.com$  
+The web app itself can be found at *pephemeral.com*  
 
 The main code can be found in the following two files:  
 
